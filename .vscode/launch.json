@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<spring-bootconfig-demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.gagan.springbootconfigdemo.DemoApplication",
+            "projectName": "spring-bootconfig-demo",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<spring-boot-config-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.gagan.springbootconfigserver.DemoApplication",
+            "projectName": "spring-boot-config-server",
+            "args": ""
+        }
+    ]
+}
